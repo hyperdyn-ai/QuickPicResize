@@ -1,14 +1,3 @@
-# QuickPicResize
-QuickPicResize is a free API for dynamically resizing images to specific dimensions. Easily upload images or specify image URLs along with desired width and height parameters to obtain resized images in seconds. Perfect for web development, mobile apps, and content management systems. Fast, reliable, and easy to integrate
-
-Features:
-
--Resize images to custom dimensions.
--Supports image uploads and URLs.
--Fast and efficient processing.
--Easy integration into projects.
--Free to use.
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +34,6 @@ Features:
     <p>Endpoint to resize an image to specified dimensions.</p>
     <pre><code>
 POST /resize/api
-Content-Type: multipart/form-data
 
 Parameters:
 - imageFile (file): Image file to upload
@@ -62,14 +50,15 @@ curl -X POST \\
   -F "imageFile=@image.jpg" \\
   -F "width=300" \\
   -F "height=200" \\
-  http://quickpicresize.com/resize/api
+  http://core.hyperdyn.cloud/resize/api
     </code></pre>
 
     <p>Response:</p>
     <pre><code>
 {
   "status": "success",
-  "resized_image_url": "http://quickpicresize.com/resized_image.jpg"
+  "message": "Image resized successfully",
+  "resized_image_url": "http://core.hyperdyn.cloud/resized_image.jpg"
 }
     </code></pre>
 
