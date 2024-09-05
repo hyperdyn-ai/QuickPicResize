@@ -50,3 +50,5 @@
   "resized_image_url": "URL of the resized image (if successful)"
 }
 </code></pre>
+
+<a href="https://app.daily.dev/skandanv"><img src="https://api.daily.dev/devcards/v2/VEUIJ386GFs2e6rt6r0o9.png?type=wide&r=939" width="652" alt="Skandan V's Dev Card"/></a>
